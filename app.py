@@ -14,7 +14,7 @@ def my_output(query):
 #### UI Development using streamlit 
 
 st.set_page_config(page_title="fortexium")
-st.header("QUERY_BOT") 
+st.header("fortexium") 
 input = st.text_input("Input " , key = "input")  
 submit = st.button("Ask your query") 
 
